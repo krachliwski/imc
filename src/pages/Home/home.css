@@ -1,18 +1,31 @@
-.app{
+.home{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #357AFF;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 120px;
 }
 
 span{
-    margin: 12px 0;
+    font-size: 40px;
+    margin: 14px 0;
+}
+
+.home button{
+    width: 500px;
+    height: 58px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 6px;
+    background-color: #1a1c20;
+    color: #FFF;
+    font-size: 22px;
 }
 
 .area-input{
@@ -25,26 +38,26 @@ span{
 .area-input input{
     width: 100%;
     margin-bottom: 12px;
-    height: 46px;
+    height: 58px;
     background-color: #121212;
     border: 0;
     border-radius: 6px;
     color: #FFF;
     padding: 0 12px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .area-input button{
     width: 100%;
-    height: 46px;
+    height: 58px;
     border: 0;
     border-radius: 6px;
-    background-color: #357AFF;
+    background-color: #1a1c20;
     color: #FFF;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 h2{
-    margin-top: 28px;
+    margin-top: 30px;
 }
